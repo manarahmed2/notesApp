@@ -1,13 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:hive_flutter/hive_flutter.dart';
+
+import 'features/home/presentations/views/home_view.dart';
 
 
-
-
-
-
-import 'features/home/views/home_view.dart';
-
-void main() {
+void main() async{
+  await Hive.initFlutter();
+  await Hive.openBox("notes_box");
   runApp(const MyApp());
 }
 
