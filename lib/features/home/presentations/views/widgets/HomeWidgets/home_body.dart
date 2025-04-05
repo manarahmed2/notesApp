@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 
+import '../../../../../../core/utils/customAppBar.dart';
 import 'NotesListView.dart';
 
-import '../../../../../core/utils/customAppBar.dart';
+
 import 'noteItem.dart';
 
 class HomeBody extends StatelessWidget {

@@ -1,8 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:notes_app/features/home/views/widgets/HomeWidgets/customTextField.dart';
 
-import '../../../../../core/utils/customAppBar.dart';
+import '../../../../../../core/utils/customAppBar.dart';
+import 'customTextField.dart';
+
 
 class EditNotesViewBody extends StatelessWidget {
   const EditNotesViewBody({super.key});

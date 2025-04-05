@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:notes_app/features/home/views/widgets/HomeWidgets/AddNotes_BottomSheet.dart';
-import 'package:notes_app/features/home/views/widgets/HomeWidgets/home_body.dart';
+import 'package:notes_app/features/home/presentations/views/widgets/HomeWidgets/AddNotes_BottomSheet.dart';
+import 'package:notes_app/features/home/presentations/views/widgets/HomeWidgets/home_body.dart';
+
 
 
 class HomeView extends StatelessWidget {

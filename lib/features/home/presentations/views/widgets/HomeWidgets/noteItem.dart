@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:notes_app/features/home/views/edit_notes_view.dart';
 
+import '../../../../../../core/utils/styles.dart';
 
-import '../../../../../core/utils/styles.dart';
+import '../../edit_notes_view.dart';
 import 'ListTileWidget.dart';
 
 class NoteItem extends StatelessWidget {
